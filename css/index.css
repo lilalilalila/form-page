@@ -1,0 +1,710 @@
+@keyframes hover-color {
+	form {
+		border-color: #c0c0c0;
+		background-color: #c0c0c0;
+	}
+	to {
+		border-color: #1D7AD9;
+		background-color: #1D7AD9;
+	}
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 580px) {
+	* {
+		font-size: 12px;
+	}
+}
+
+.header-content {
+	width: 100%;
+	
+	background-color: #1d7ad9;
+}
+
+.header-content:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.index-service {
+	display: inline-block;
+	
+	margin-left: 18.75%;
+	width: 20%;
+	
+	line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 1400px) {
+	.index-service {
+		margin-left: 15px;
+		width: auto;
+	}
+	
+	.index-service p {
+		font-size: 0.8rem;
+	}
+	
+	.index-land {
+		margin-right: 15px !important;
+		width: 30% !important;
+	}
+	
+	.index-land a {
+		font-size: 0.9rem !important;
+	}
+}
+
+.index-land {
+	display: inline-block;
+	float: right;
+	
+	margin-right: 17.5%;
+	
+	width: 20%;
+	text-align: right;
+	
+	color: #ffffff;
+}
+
+.index-land a {
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: auto -3px;
+	
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	
+	color: #ffffff;
+	text-decoration: none;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #FFFFFF;
+}
+
+.index-land a:focus,
+.index-land a:hover {
+	padding-left: 25px;
+	padding-right: 25px;
+	
+	color: #000000;
+	background-color: #ffffff;
+}
+
+
+.index-nav {
+	padding: 1% 0;
+	
+	background-color: #f9f9f9;
+}
+
+.index-nav:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.index-nav ul {
+	float: right;
+	
+	margin-right: 15.4%;
+	width: 364px;
+	
+	list-style: none;
+}
+
+.index-nav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.index-nav li {
+	float: left;
+	
+	margin-right: 7%;
+	padding: 10px;
+	
+	text-decoration: none;
+	background-color: #ffffff;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 1400px) {
+	.index-nav ul {
+		margin-right: 0;
+	}
+	
+}
+
+.index-nav a {
+	font-size: 1rem;
+	
+	text-decoration: none;
+	color: #000000;
+}
+
+.index-nav li:focus,
+.index-nav li:hover,
+.index-nav a:focus,
+.index-nav a:hover {
+	color: #ffffff;
+	background-color: #1d7ad9;
+}
+
+@media only screen and (max-width: 580px) {
+	.index-nav ul {
+		width: 100%;
+	}
+	
+	.index-nav li {
+		margin: 3.9%;
+	}
+	
+	.index-nav a {
+		font-size: 0.9rem;
+	}
+}
+
+
+.progress-bar {
+	float: right;
+	
+	margin-top: 1%;
+	margin-right: 17%;
+	margin-bottom: 1%;
+	padding-top: 13px;
+	padding-bottom: 30px;
+	width: 463px;
+}
+
+@media only screen and (max-width: 1400px) {
+	.progress-bar {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.progress-bar {
+		width: 250px;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.progress-bar:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.progress-bar > div {
+	display: inline-block;
+}
+
+.first {
+	position: relative;
+	top: 1px;
+	
+	width: 120px;
+	height: 5px;
+	
+	color: #ffffff;
+	background-color: #ff7f02;
+}
+
+.first > div {
+	position: absolute;
+	left: 47px;
+	top: -9px;
+	
+	width: 20px;
+	height: 20px;
+	
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background-color: #ff7f02;
+}
+
+.first span {
+	position: absolute;
+	left: 28%;
+	top: 1%;
+	
+	font-size: 1rem;　
+	
+	color: #FFFFFF;
+}
+
+.first p {
+	position: relative;
+	top: 30px;
+	left: 18px;
+	
+	font-size: 1.1rem;
+	
+	color: #FF7F02;
+}
+
+@media only screen and (max-width: 1600px) {
+	.first p {
+		font-size: 0.9rem;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.first {
+		height: 2px;
+		width: 65px;
+	}
+	
+	.first > div {
+		width: 15px;
+		height: 15px;
+		top: -6px;
+		left: 20px;
+	}
+	
+	.first span {
+		left: 28%;
+	}
+	
+	.first p {
+		top: 15px;
+		left: 0;
+	}
+}
+
+.second {
+	position: relative;
+	top: 1px;
+	
+	margin-left: -10px;
+	width: 120px;
+	height: 5px;
+	
+	color: #ffffff;
+	background-color: #cccccc;
+}
+
+.second > div {
+	position: absolute;
+	left: 47px;
+	top: -9px;
+	
+	width: 20px;
+	height: 20px;
+	
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	background-color: #CCCCCC;
+}
+
+.second span {
+	position: absolute;
+	left: 28%;
+	top: 1%;
+	
+	font-size: 1rem;　
+	
+	color: #ffffff;
+}
+
+.second p {
+	position: relative;
+	top: 30px;
+	left: 18px;
+	
+	font-size: 1.1rem;
+	
+	color: #cccccc;
+}
+
+@media only screen and (max-width: 1600px) {
+	.second p {
+		font-size: 0.9rem;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.second {
+		width: 65px;
+		height: 2px;
+	}
+	
+	.second > div {
+		width: 15px;
+		height: 15px;
+		top: -6px;
+		left: 20px;
+	}
+	
+	.second span {
+		left: 28%;
+	}
+	
+	.second p {
+		top: 15px;
+		left: 0;
+	}
+}
+
+.index-form {
+	margin-left: 19%;
+	width: 63.9%;
+}
+
+@media only screen and (max-width: 1400px) {
+	.main{
+		padding: 0 5px;
+		overflow: hidden;
+	}
+	
+	.index-form {
+		margin: 0;
+		width: 100%;
+	}
+}
+
+.index-form > h5 {
+	padding-left: 5px;
+	
+	font-size: 1.1rem;
+	
+	border-left: 3px solid #1D7AD9;
+}
+
+.form-content {
+	margin-top: 5px;
+	
+	background-color: #fbfcff;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+
+.form-inner h5 {
+	padding-left: 35px;
+	
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 2.3rem;
+	
+	color: #1D7AD9;
+	background-color: #f4f4f4;
+	background-image: url(../img/images/定制箱_03.jpg);
+	background-repeat: no-repeat;
+	background-size: 19px 15px;
+	background-position: 10px center;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.form-inner {
+	position: relative;
+	
+	color: #666666;
+}
+
+.form-inner > div {
+	padding: 25px 0;
+	
+	background-color: #fbfcff;
+}
+
+.form-inner > div > div {
+	display: inline-block;
+	
+	margin-left: 35px;
+}
+
+@media only screen and (max-width: 948px) {
+	.form-inner > div > div {
+		display: block;
+	}
+}
+
+.form-inner select {
+	position: absolute;
+	top: 60%;
+	
+	margin-right: 20px;
+}
+
+.form-size h5 {
+	background-image: url(../img/images/定制箱_06.jpg);
+	background-size: 19px 17px;
+}
+
+.form-size > div {
+	display: inline-block;
+	
+	width: 70%;
+}
+
+.form-size input {
+	margin: 0 -13px;
+	width: 50px;
+}
+
+.form-size span {
+	margin: 0 15px ;
+}
+
+.form-button {
+	width: 100%;
+	
+	background-color: #ffffff;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.form-button button {
+	margin: 8% auto;
+	padding: 5px;
+	width: 130px;
+	
+	font-size: 1.2rem;
+	
+	color: #ffffff;
+	background-color: #e15053;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.form-texture h5 {
+	background-image: url(../img/images/定制箱_10.jpg);
+	-webkit-background-size: 15px 20px;
+	background-size: 15px 20px;
+}
+
+
+.footer-content {
+	position: relative;
+	
+	margin-top: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 18.9%;
+	
+	color: #999999;
+	background-color: #f9f9f9;
+}
+
+.footer-content > div {
+	float: left;
+	display: inline-block;
+	
+	margin-right: 11.8%;
+	width: 20%;
+}
+
+@media only screen and (max-width: 948px) {
+	.footer-content {
+		padding-left: 20px;
+	}
+	
+	.footer-content > div {
+		display: block;
+		
+		margin: 10px 0;
+		width: 100%;
+	}
+}
+
+.footer-content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.footer-content p {
+	margin-bottom: 8px;
+	margin-top: 2px;
+	font-size: 1rem;
+}
+
+.footer-content ul {
+	list-style: none;
+}
+
+.footer-content li {
+	float: left;
+	
+	margin-right: 25px;
+	
+	line-height: 2.7rem;
+}
+
+.footer-content ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.footer-content a {
+	font-size: 1rem;
+	
+	text-decoration: none;
+	color: #999999;
+}
+
+.footer-content a:hover {
+	color: #1D7AD9;
+}
+
+.right div {
+	display: inline-block;
+	float: left;
+	
+	margin-right: 6px;
+}
+
+.index-bottom {
+	padding: 5px 0;
+	text-align: center;
+	
+	color: #FFFFFF;
+	background-color: #1D7AD9;
+}
+
+.index-bottom span {
+	font-size: 0.8rem;
+	margin: 0 5px;
+}
+
+
+/*css修改radio样式*/
+.form-radio {
+	position: absolute;
+	display: none;
+}
+
+.form-radio[disabled] {
+	cursor: not-allowed;
+}
+
+.form-radio + label {
+	position: relative;
+	display: block;
+	padding-left: 30px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+	.form-radio + label:hover:before {
+		animation-duration: 0.4s;
+		animation-fill-mode: both;
+		animation-name: hover-color;
+	}
+	.form-radio + label:before {
+		position: absolute;
+		top: 3px;
+		left: 0;
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		content: '';
+		border: 1px solid #c0c0c0;
+	}
+	.form-radio + label:after {
+		position: absolute;
+		display: none;
+		content: '';
+	}
+	
+.form-radio[disabled] + label {
+	cursor: not-allowed;
+	color: #e4e4e4;
+}
+	.form-radio[disabled] + label:hover,
+	.form-radio[disabled] + label:before,
+	.form-radio[disabled] + label:after {
+		cursor: not-allowed;
+	}
+	.form-radio[disabled] + label:hover:before {
+		border: 1px solid #e4e4e4;
+		animation-name: none;
+	}
+	.form-radio[disabled] + label:before {
+		border-color: #e4e4e4;
+	}
+
+.form-radio:checked + label:before {
+	animation-name: none;
+}
+
+.form-radio:checked + label:after {
+	display: block;
+}
+
+.form-radio + label:before {
+	border-radius: 50%;
+}
+
+.form-radio + label:after {
+	top: 8px;
+	left: 5px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+}
+
+.form-radio:checked + label:before {
+	background: #1D7AD9;
+	border:1px solid #1D7AD9;
+}
+
+.form-radio:checked[disabled] + label:before {
+	border: 1px solid #c9e2f9;
+}
+
+.form-radio:checked[disabled] + label:after {
+	background-color: #c9e2f9;
+}
+
+
+
+/*select样式*/
+select {
+	padding-right: 30px;
+	padding-left: 5px;
+	margin: -7px auto;
+	width: 100px;
+	height: 27px;
+	
+	font-size: 0.8rem;
+	
+	color: #999999;
+	border: 1px solid #e8e8e8;
+	/*清除样式*/
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	/*选择框右侧中间显示小箭头图标*/
+	background: url(../img/images/定制箱_0223.jpg) no-repeat scroll transparent;
+	background-position: 75px center;
+	right: 5px;
+	background-size: 20px 23px;
+}
+
+/*清除ie的默认选择框样式,隐藏下拉箭头*/
+select::-ms-expand {
+	display: none;
+}
+
+option {
+	font-size: 0.8rem;
+	
+	border: 1px solid #e8e8e8;
+}
